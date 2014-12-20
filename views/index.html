@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="../app/js/ui-bootstrap-tpls-0.12.0.js"></script>
 
     <script src="../app/app.js"></script>
     <link rel="stylesheet" href="../app/app.css">
@@ -46,12 +47,24 @@
                 <!--<div class="form-group has-feedback col-xs-4 center-block"> --><div class="form-group has-feedback center-block">
                     <i class="glyphicon glyphicon-search form-control-feedback" ></i>
                     <input class="form-control input-lg col-lg-1" type="text" placeholder="Search by category or recipe">
+                        <!--replace input with typeahead: http://angular-ui.github.io/bootstrap/ -->
+
                 </div>
             </div>
+            <!--<div class="block-center">-->
+                <accordion ng-controller="RecipeController">
+                    <accordion-group heading="recipe heading">
+                        example
+                    </accordion-group>
+                    <accordion-group heading="recipe heading dos">
+                        example
+                    </accordion-group>
+                </accordion>
+            <!--</div>-->
 
             <div class="mastfoot">
                 <div class="inner">
-                    <p>I should probably put something in this footer</p>
+                    <p>An Aubrax Creation</p>
                 </div>
             </div>
         </div>
