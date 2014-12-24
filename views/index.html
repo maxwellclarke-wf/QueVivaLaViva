@@ -46,15 +46,18 @@
                 <p class="lead">Viva Overfield was a pretty rockin' dudette.  This is a collection of her many recipes. </p>
                 <!--<div class="form-group has-feedback col-xs-4 center-block"> --><div class="form-group has-feedback center-block">
                     <i class="glyphicon glyphicon-search form-control-feedback" ></i>
-                    <input class="form-control input-lg col-lg-1" type="text" placeholder="Search by category or recipe">
+                    <input ng-model="asyncSelected" typeahead="recipe.name for recipe in getRecipes($viewValue)"  class="form-control input-lg col-lg-1" type="text" placeholder="Search by category or recipe">
                         <!--replace input with typeahead: http://angular-ui.github.io/bootstrap/ -->
 
                 </div>
             </div>
             <!--<div class="block-center">-->
-                <accordion ng-controller="RecipeController">
-                    <accordion-group heading="recipe heading">
-                        example
+                <accordion ng-repeat="recipe in recipes">
+                    <accordion-group heading="{{recipe.name}} - {{recipe.category}}" >
+                        <div ng-repeat="url in recipe.image_url">
+                            {{url}}
+                        </div>
+                        <img ng-repeat="url in recipe.image_url" src="{{ url }}" width="100%">
                     </accordion-group>
                     <accordion-group heading="recipe heading dos">
                         example

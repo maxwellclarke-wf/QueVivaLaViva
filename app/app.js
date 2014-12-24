@@ -1,5 +1,8 @@
 angular.module('QueViva',
-    ['ui.bootstrap']).controller('HomeController', function ($scope) {
+    ['ui.bootstrap']).controller('HomeController', function ($scope, $http) {
+
+
+
         $scope.recipes = [
             {
                 name: "Birthday Surprise",
@@ -19,6 +22,12 @@ angular.module('QueViva',
             }
         ];
 
+
+        $scope.getRecipes = function getRecipes($viewValue) {
+            return $http.get('../app/res/recipes/recipes.json').then(function afterGetRecipes(results) {
+               return results;
+            });
+        }
 
 
 
