@@ -1,37 +1,43 @@
 import fnmatch
 import pprint
 import os
+import json
 
-def buildTree(dirRoot):
-    tree = []
-	
+def buildTree(dirRoot, urlRoot):
+    tree = {}
     for root, dirnames, filenames in os.walk(dirRoot):
         for category in dirnames: # first is the immediate subdir
             print category
-            tree.append(buildCategory(os.path.join(root,category), category))
+            tree[category] = buildCategory(os.path.join(root,category), category, urlRoot)
         break
     return tree
 
-def buildCategory(cwd, category):
+def buildCategory(cwd, category, urlRoot):
     items = {}
     for root, dirnames, filenames in os.walk(cwd):
         for recipeName in dirnames:
             print recipeName
-            items[recipeName] = buildRecipe(recipeName, category, buildFilePaths( os.path.join( root,recipeName ) ) )
+            items[recipeName] = buildRecipe(recipeName, category, buildFilePaths( os.path.join( root,recipeName ), os.path.join( urlRoot,recipeName ) ) )
     return items
 
-def buildFilePaths(pathToDir):
+def buildFilePaths(pathToDir, urlRoot):
     for root, dirnames, filenames in os.walk(pathToDir):
-        return [os.path.join(pathToDir,filename) for filename in filenames]
+        return [os.path.join(urlRoot,filename) for filename in filenames]
 
 def buildRecipe(name, type, arrFilePaths):
     print arrFilePaths
     subtree = {}
-    return {'name':name, 'type':type, 'image_urls':arrFilePaths}
+    return {"name":name, "type":type, "image_urls":arrFilePaths}
 
-fileOut = file('out.json', 'w')
-fileOut.write(pprint.pformat( buildTree( "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project" ) ) )
-fileOut.close()
+def outputJson(data):
+    return json.dumps(data, sort_keys=True, indent=4, separators=(',', ': '))
 
-# TODO: build real __MAIN__ to run from CLI
+def main():
+	fileOut = file('../app/res/recipes/recipes.json', 'w')
+	fileOut.write( outputJson( buildTree( "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project", 'res/img' ) ) )
+	fileOut.close()
 
+   # my code here
+
+if __name__ == "__main__":
+    main()

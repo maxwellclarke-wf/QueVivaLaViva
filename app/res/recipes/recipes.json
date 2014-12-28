@@ -1,385 +1,1851 @@
-[
-  {
-    '6 Week Bran Muffins': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Breakfast/6 Week Bran Muffins/.DS_Store",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Breakfast/6 Week Bran Muffins/6 Week Bran Muffins1.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Breakfast/6 Week Bran Muffins/6 Week Bran Muffins2.jpg"
-      ],
-      'name': '6 Week Bran Muffins',
-      'type': 'Breakfast'
+{
+    "Breakfast": {
+        "6 Week Bran Muffins": {
+            "image_urls": [
+                "res/img/6 Week Bran Muffins/.DS_Store",
+                "res/img/6 Week Bran Muffins/6 Week Bran Muffins1.jpg",
+                "res/img/6 Week Bran Muffins/6 Week Bran Muffins2.jpg"
+            ],
+            "name": "6 Week Bran Muffins",
+            "type": "Breakfast"
+        },
+        "Bacon & Egg Omlette": {
+            "image_urls": [
+                "res/img/Bacon & Egg Omlette/Bacon & Egg Omlette.jpg"
+            ],
+            "name": "Bacon & Egg Omlette",
+            "type": "Breakfast"
+        },
+        "Corn Meal Muffins": {
+            "image_urls": [
+                "res/img/Corn Meal Muffins/Corn Meal Muffins.jpg"
+            ],
+            "name": "Corn Meal Muffins",
+            "type": "Breakfast"
+        },
+        "Cottage Cheese Pancakes": {
+            "image_urls": [
+                "res/img/Cottage Cheese Pancakes/Cottage Cheese Pancakes.jpg"
+            ],
+            "name": "Cottage Cheese Pancakes",
+            "type": "Breakfast"
+        },
+        "Imitation Strawberry Preserve": {
+            "image_urls": [
+                "res/img/Imitation Strawberry Preserve/Imitation Strawberry Preserve (1).jpg",
+                "res/img/Imitation Strawberry Preserve/Imitation Strawberry Preserve (2).jpg",
+                "res/img/Imitation Strawberry Preserve/Imitation Strawberry Preserve (3).jpg"
+            ],
+            "name": "Imitation Strawberry Preserve",
+            "type": "Breakfast"
+        },
+        "Microwave Muffins": {
+            "image_urls": [
+                "res/img/Microwave Muffins/.DS_Store",
+                "res/img/Microwave Muffins/Microwave Muffins.jpg"
+            ],
+            "name": "Microwave Muffins",
+            "type": "Breakfast"
+        }
     },
-    'Bacon & Egg Omlette': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Breakfast/Bacon & Egg Omlette/Bacon & Egg Omlette.jpg"],
-      'name': 'Bacon & Egg Omlette',
-      'type': 'Breakfast'
+    "Cakes": {
+        "Apple Cake": {
+            "image_urls": [
+                "res/img/Apple Cake/Apple Cake V.1.jpg",
+                "res/img/Apple Cake/Apple Cake V.2 - Sara (1).jpg",
+                "res/img/Apple Cake/Apple Cake V.2 - Sara (2).jpg",
+                "res/img/Apple Cake/Apple Cake V.3.jpg",
+                "res/img/Apple Cake/Apple Cake V.4.jpg"
+            ],
+            "name": "Apple Cake",
+            "type": "Cakes"
+        },
+        "Apple Sauce Cake": {
+            "image_urls": [
+                "res/img/Apple Sauce Cake/Apple Sauce Cake V.2 (1).jpg",
+                "res/img/Apple Sauce Cake/Apple Sauce Cake V.2 (2).jpg",
+                "res/img/Apple Sauce Cake/Apple Sauce Cake V.2 (3).jpg",
+                "res/img/Apple Sauce Cake/Apple Sauce Cake.jpg"
+            ],
+            "name": "Apple Sauce Cake",
+            "type": "Cakes"
+        },
+        "Baking Mix": {
+            "image_urls": [
+                "res/img/Baking Mix/Baking Mix.jpg"
+            ],
+            "name": "Baking Mix",
+            "type": "Cakes"
+        },
+        "Banana Cake": {
+            "image_urls": [
+                "res/img/Banana Cake/Banana Cake.jpg"
+            ],
+            "name": "Banana Cake",
+            "type": "Cakes"
+        },
+        "Cheap Skate Cake": {
+            "image_urls": [
+                "res/img/Cheap Skate Cake/Cheap Skate Cake.jpg"
+            ],
+            "name": "Cheap Skate Cake",
+            "type": "Cakes"
+        },
+        "Cheese Cake": {
+            "image_urls": [
+                "res/img/Cheese Cake/Cheese Cake - Betty O.jpg",
+                "res/img/Cheese Cake/Cheese Cake - Betty O2.jpg",
+                "res/img/Cheese Cake/Cheese Cake - Lee's.jpg"
+            ],
+            "name": "Cheese Cake",
+            "type": "Cakes"
+        },
+        "Chocolate Cake": {
+            "image_urls": [
+                "res/img/Chocolate Cake/Chocolate Cake - Ruth O.jpg",
+                "res/img/Chocolate Cake/Chocolate Cake V.2.jpg",
+                "res/img/Chocolate Cake/Chocolate Cake.jpg"
+            ],
+            "name": "Chocolate Cake",
+            "type": "Cakes"
+        },
+        "Chocolate Sauerkraut Cake": {
+            "image_urls": [
+                "res/img/Chocolate Sauerkraut Cake/Chocolate Sauerkraut Cake (1).jpg",
+                "res/img/Chocolate Sauerkraut Cake/Chocolate Sauerkraut Cake (2).jpg"
+            ],
+            "name": "Chocolate Sauerkraut Cake",
+            "type": "Cakes"
+        },
+        "Christmas Prune Cake": {
+            "image_urls": [
+                "res/img/Christmas Prune Cake/Christmas Prune Cake.jpg"
+            ],
+            "name": "Christmas Prune Cake",
+            "type": "Cakes"
+        },
+        "Cranberry Bundt Cake": {
+            "image_urls": [
+                "res/img/Cranberry Bundt Cake/Cranberry Bundt Cake (1).jpg",
+                "res/img/Cranberry Bundt Cake/Cranberry Bundt Cake (2).jpg"
+            ],
+            "name": "Cranberry Bundt Cake",
+            "type": "Cakes"
+        },
+        "Fruit Cocktail Cake": {
+            "image_urls": [
+                "res/img/Fruit Cocktail Cake/Fruit Cocktail Cake.jpg"
+            ],
+            "name": "Fruit Cocktail Cake",
+            "type": "Cakes"
+        },
+        "Fudge Brownies": {
+            "image_urls": [
+                "res/img/Fudge Brownies/Fudge Brownies.jpg"
+            ],
+            "name": "Fudge Brownies",
+            "type": "Cakes"
+        },
+        "Goofy Cake": {
+            "image_urls": [
+                "res/img/Goofy Cake/Goofy Cake.jpg"
+            ],
+            "name": "Goofy Cake",
+            "type": "Cakes"
+        },
+        "Hawaiian Wedding Cake": {
+            "image_urls": [
+                "res/img/Hawaiian Wedding Cake/Hawaiian Wedding Cake.jpg"
+            ],
+            "name": "Hawaiian Wedding Cake",
+            "type": "Cakes"
+        },
+        "Lemon Loaf": {
+            "image_urls": [
+                "res/img/Lemon Loaf/Lemon Loaf (1).jpg",
+                "res/img/Lemon Loaf/Lemon Loaf (2).jpg"
+            ],
+            "name": "Lemon Loaf",
+            "type": "Cakes"
+        },
+        "Meringue Cake": {
+            "image_urls": [
+                "res/img/Meringue Cake/Meringue Cake (1).jpg",
+                "res/img/Meringue Cake/Meringue Cake (2).jpg"
+            ],
+            "name": "Meringue Cake",
+            "type": "Cakes"
+        },
+        "Mississippi Mud Cake": {
+            "image_urls": [
+                "res/img/Mississippi Mud Cake/Mississippi Mud Cake (1).jpg",
+                "res/img/Mississippi Mud Cake/Mississippi Mud Cake (2).jpg"
+            ],
+            "name": "Mississippi Mud Cake",
+            "type": "Cakes"
+        },
+        "Mom's French Apple Cake": {
+            "image_urls": [
+                "res/img/Mom's French Apple Cake/Mom's Fresh Apple Cake.jpg"
+            ],
+            "name": "Mom's French Apple Cake",
+            "type": "Cakes"
+        },
+        "Oatmeal Cake": {
+            "image_urls": [
+                "res/img/Oatmeal Cake/Oatmeal Cake (1).jpg",
+                "res/img/Oatmeal Cake/Oatmeal Cake (2).jpg"
+            ],
+            "name": "Oatmeal Cake",
+            "type": "Cakes"
+        },
+        "Orange Kiss Me Cake": {
+            "image_urls": [
+                "res/img/Orange Kiss Me Cake/Orange Kiss Me Cake - Geraldine Hill (1).jpg",
+                "res/img/Orange Kiss Me Cake/Orange Kiss Me Cake - Geraldine Hill (2).jpg"
+            ],
+            "name": "Orange Kiss Me Cake",
+            "type": "Cakes"
+        },
+        "Picnic Cake": {
+            "image_urls": [
+                "res/img/Picnic Cake/Picnic Cake.jpg"
+            ],
+            "name": "Picnic Cake",
+            "type": "Cakes"
+        },
+        "Pineapple UpsideDown Cake & Dinette Cake": {
+            "image_urls": [
+                "res/img/Pineapple UpsideDown Cake & Dinette Cake/Pinapple UpsideDown Cake and Dinette Cake (1).jpg",
+                "res/img/Pineapple UpsideDown Cake & Dinette Cake/Pinapple UpsideDown Cake and Dinette Cake (2).jpg"
+            ],
+            "name": "Pineapple UpsideDown Cake & Dinette Cake",
+            "type": "Cakes"
+        },
+        "Red Velvet Cake": {
+            "image_urls": [
+                "res/img/Red Velvet Cake/Red Velvet Cake and Frosting (1).jpg",
+                "res/img/Red Velvet Cake/Red Velvet Cake and Frosting (2).jpg",
+                "res/img/Red Velvet Cake/Red Velvet Cake V.2 (1).jpg",
+                "res/img/Red Velvet Cake/Red Velvet Cake V.2 (2).jpg"
+            ],
+            "name": "Red Velvet Cake",
+            "type": "Cakes"
+        },
+        "Sour Cream Coffee Cake": {
+            "image_urls": [
+                "res/img/Sour Cream Coffee Cake/Sour Cream Coffee Cake (1).jpg",
+                "res/img/Sour Cream Coffee Cake/Sour Cream Coffee Cake (2).jpg",
+                "res/img/Sour Cream Coffee Cake/Sour Cream Coffee Cake (3).jpg",
+                "res/img/Sour Cream Coffee Cake/Sour Cream Coffee Cake (4).jpg"
+            ],
+            "name": "Sour Cream Coffee Cake",
+            "type": "Cakes"
+        },
+        "Uncooked Fruit Cake": {
+            "image_urls": [
+                "res/img/Uncooked Fruit Cake/Uncooked Fruit Cake (1).jpg",
+                "res/img/Uncooked Fruit Cake/Uncooked Fruit Cake (2).jpg"
+            ],
+            "name": "Uncooked Fruit Cake",
+            "type": "Cakes"
+        },
+        "Velvet Crumb Cake": {
+            "image_urls": [
+                "res/img/Velvet Crumb Cake/Velvet Crumb Cake (1).jpg",
+                "res/img/Velvet Crumb Cake/Velvet Crumb Cake (2).jpg"
+            ],
+            "name": "Velvet Crumb Cake",
+            "type": "Cakes"
+        },
+        "Watergate Cake": {
+            "image_urls": [
+                "res/img/Watergate Cake/Watergate Cake.jpg"
+            ],
+            "name": "Watergate Cake",
+            "type": "Cakes"
+        }
     },
-    'Corn Meal Muffins': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Breakfast/Corn Meal Muffins/Corn Meal Muffins.jpg"],
-      'name': 'Corn Meal Muffins',
-      'type': 'Breakfast'
+    "Candy & Desserts": {
+        "Ambrosia": {
+            "image_urls": [
+                "res/img/Ambrosia/Ambrosia.jpg"
+            ],
+            "name": "Ambrosia",
+            "type": "Candy & Desserts"
+        },
+        "Apple Chutney": {
+            "image_urls": [
+                "res/img/Apple Chutney/Apple Chutney.jpg"
+            ],
+            "name": "Apple Chutney",
+            "type": "Candy & Desserts"
+        },
+        "Banana Mallow": {
+            "image_urls": [
+                "res/img/Banana Mallow/Banana Mallow.jpg"
+            ],
+            "name": "Banana Mallow",
+            "type": "Candy & Desserts"
+        },
+        "Betty's Sour Cream Fruit Salad": {
+            "image_urls": [
+                "res/img/Betty's Sour Cream Fruit Salad/Betty's Sour Cream Fruit Salad.jpg"
+            ],
+            "name": "Betty's Sour Cream Fruit Salad",
+            "type": "Candy & Desserts"
+        },
+        "Beverly's Cranberry Salad": {
+            "image_urls": [
+                "res/img/Beverly's Cranberry Salad/Bev's Cranberry Salad V.3 (2).jpg",
+                "res/img/Beverly's Cranberry Salad/Bev's Cranberry Salad V.3.jpg",
+                "res/img/Beverly's Cranberry Salad/Beverly's Cranberry Salad V.2.jpg",
+                "res/img/Beverly's Cranberry Salad/Beverly's Cranberry Salad.jpg"
+            ],
+            "name": "Beverly's Cranberry Salad",
+            "type": "Candy & Desserts"
+        },
+        "Black Walnut Nut Bread": {
+            "image_urls": [
+                "res/img/Black Walnut Nut Bread/Black Walnut Nut Bread.jpg"
+            ],
+            "name": "Black Walnut Nut Bread",
+            "type": "Candy & Desserts"
+        },
+        "Blackberry Pudding with Lemon Sauce": {
+            "image_urls": [
+                "res/img/Blackberry Pudding with Lemon Sauce/Blackberry Pudding with Lemon Sauce (1).jpg",
+                "res/img/Blackberry Pudding with Lemon Sauce/Blackberry Pudding with Lemon Sauce (2).jpg"
+            ],
+            "name": "Blackberry Pudding with Lemon Sauce",
+            "type": "Candy & Desserts"
+        },
+        "Bread Pudding": {
+            "image_urls": [
+                "res/img/Bread Pudding/Bread Pudding.jpg"
+            ],
+            "name": "Bread Pudding",
+            "type": "Candy & Desserts"
+        },
+        "Candy Porcupines": {
+            "image_urls": [
+                "res/img/Candy Porcupines/Candy Porcupines.jpg"
+            ],
+            "name": "Candy Porcupines",
+            "type": "Candy & Desserts"
+        },
+        "Caramel Rolls": {
+            "image_urls": [
+                "res/img/Caramel Rolls/Caramel Rolls (1).jpg",
+                "res/img/Caramel Rolls/Caramel Rolls (2).jpg"
+            ],
+            "name": "Caramel Rolls",
+            "type": "Candy & Desserts"
+        },
+        "Chocolate Peanut Butter Eggs": {
+            "image_urls": [
+                "res/img/Chocolate Peanut Butter Eggs/Chocolate Peanut Butter Eggs.jpg"
+            ],
+            "name": "Chocolate Peanut Butter Eggs",
+            "type": "Candy & Desserts"
+        },
+        "Cinnamon Apple Sauce Mold": {
+            "image_urls": [
+                "res/img/Cinnamon Apple Sauce Mold/Cinnamon Apple Sauce Mold.jpg"
+            ],
+            "name": "Cinnamon Apple Sauce Mold",
+            "type": "Candy & Desserts"
+        },
+        "Cobbler": {
+            "image_urls": [
+                "res/img/Cobbler/Cobbler (1).jpg",
+                "res/img/Cobbler/Cobbler (2).jpg"
+            ],
+            "name": "Cobbler",
+            "type": "Candy & Desserts"
+        },
+        "Corn Starch Pudding": {
+            "image_urls": [
+                "res/img/Corn Starch Pudding/Corn Starch Pudding.jpg"
+            ],
+            "name": "Corn Starch Pudding",
+            "type": "Candy & Desserts"
+        },
+        "Cranberry Nut Bread": {
+            "image_urls": [
+                "res/img/Cranberry Nut Bread/Cranberry Nut Bread.jpg"
+            ],
+            "name": "Cranberry Nut Bread",
+            "type": "Candy & Desserts"
+        },
+        "Cranberry Orange Relish": {
+            "image_urls": [
+                "res/img/Cranberry Orange Relish/Cranberry Orange Relish V.2.jpg",
+                "res/img/Cranberry Orange Relish/Cranberry Orange Relish.jpg",
+                "res/img/Cranberry Orange Relish/Cranberry Relish.jpg"
+            ],
+            "name": "Cranberry Orange Relish",
+            "type": "Candy & Desserts"
+        },
+        "Cranberry Salad": {
+            "image_urls": [
+                "res/img/Cranberry Salad/Cranberry Salad.jpg"
+            ],
+            "name": "Cranberry Salad",
+            "type": "Candy & Desserts"
+        },
+        "Cup Custard": {
+            "image_urls": [
+                "res/img/Cup Custard/Cup Custard.jpg"
+            ],
+            "name": "Cup Custard",
+            "type": "Candy & Desserts"
+        },
+        "Date Sticks": {
+            "image_urls": [
+                "res/img/Date Sticks/Date Sticks (1).jpg",
+                "res/img/Date Sticks/Date Sticks (2).jpg"
+            ],
+            "name": "Date Sticks",
+            "type": "Candy & Desserts"
+        },
+        "Florence's Heavenly Hash": {
+            "image_urls": [
+                "res/img/Florence's Heavenly Hash/Florence's Heavenly Hash.jpg"
+            ],
+            "name": "Florence's Heavenly Hash",
+            "type": "Candy & Desserts"
+        },
+        "Frozen Orange Pudding": {
+            "image_urls": [
+                "res/img/Frozen Orange Pudding/Frozen Orange Pudding.jpg"
+            ],
+            "name": "Frozen Orange Pudding",
+            "type": "Candy & Desserts"
+        },
+        "Fruit Fluff": {
+            "image_urls": [
+                "res/img/Fruit Fluff/Fruit Fluff.jpg"
+            ],
+            "name": "Fruit Fluff",
+            "type": "Candy & Desserts"
+        },
+        "Gramma O's Fudge Recipe": {
+            "image_urls": [
+                "res/img/Gramma O's Fudge Recipe/Grandma O's Fudge Recipe (1).jpg",
+                "res/img/Gramma O's Fudge Recipe/Grandma O's Fudge Recipe (2).jpg",
+                "res/img/Gramma O's Fudge Recipe/Grandma O's Fudge Recipe (3).jpg",
+                "res/img/Gramma O's Fudge Recipe/Grandma O's Fudge Recipe (4).jpg"
+            ],
+            "name": "Gramma O's Fudge Recipe",
+            "type": "Candy & Desserts"
+        },
+        "Hot Milk Sponge": {
+            "image_urls": [
+                "res/img/Hot Milk Sponge/Hot Milk Sponge.jpg"
+            ],
+            "name": "Hot Milk Sponge",
+            "type": "Candy & Desserts"
+        },
+        "Indian Fry Bread - Betty": {
+            "image_urls": [
+                "res/img/Indian Fry Bread - Betty/Indian Fry Bread - Betty.jpg"
+            ],
+            "name": "Indian Fry Bread - Betty",
+            "type": "Candy & Desserts"
+        },
+        "Ivinity Microwave": {
+            "image_urls": [
+                "res/img/Ivinity Microwave/Ivinity Microwave (1).jpg",
+                "res/img/Ivinity Microwave/Ivinity Microwave (2).jpg"
+            ],
+            "name": "Ivinity Microwave",
+            "type": "Candy & Desserts"
+        },
+        "Jello Salad": {
+            "image_urls": [
+                "res/img/Jello Salad/Jello Salad.jpg"
+            ],
+            "name": "Jello Salad",
+            "type": "Candy & Desserts"
+        },
+        "Lightning Microwave Fudge": {
+            "image_urls": [
+                "res/img/Lightning Microwave Fudge/Lightning Microwave Fudge.jpg"
+            ],
+            "name": "Lightning Microwave Fudge",
+            "type": "Candy & Desserts"
+        },
+        "Mary's Gingerale Fruit Salad": {
+            "image_urls": [
+                "res/img/Mary's Gingerale Fruit Salad/Mary's Gingerale Fruit Salad.jpg"
+            ],
+            "name": "Mary's Gingerale Fruit Salad",
+            "type": "Candy & Desserts"
+        },
+        "Microwave Peanut Brittle": {
+            "image_urls": [
+                "res/img/Microwave Peanut Brittle/Microwave Peanut Brittle (1).jpg",
+                "res/img/Microwave Peanut Brittle/Microwave Peanut Brittle (2).jpg"
+            ],
+            "name": "Microwave Peanut Brittle",
+            "type": "Candy & Desserts"
+        },
+        "Minute Tapioca Pudding": {
+            "image_urls": [
+                "res/img/Minute Tapioca Pudding/Minute Tapioca Pudding.jpg"
+            ],
+            "name": "Minute Tapioca Pudding",
+            "type": "Candy & Desserts"
+        },
+        "Mrs. Sims Apple Pudding & Sauce": {
+            "image_urls": [
+                "res/img/Mrs. Sims Apple Pudding & Sauce/Mrs. Sims Apple Pudding & Sauce  (1).jpg",
+                "res/img/Mrs. Sims Apple Pudding & Sauce/Mrs. Sims Apple Pudding & Sauce  (2).jpg"
+            ],
+            "name": "Mrs. Sims Apple Pudding & Sauce",
+            "type": "Candy & Desserts"
+        },
+        "Mystery Tarte": {
+            "image_urls": [
+                "res/img/Mystery Tarte/Mystery Tarte (2).jpg",
+                "res/img/Mystery Tarte/Mystery Tarte.jpg"
+            ],
+            "name": "Mystery Tarte",
+            "type": "Candy & Desserts"
+        },
+        "Orange Moss": {
+            "image_urls": [
+                "res/img/Orange Moss/Orange Moss.jpg"
+            ],
+            "name": "Orange Moss",
+            "type": "Candy & Desserts"
+        },
+        "Parker House Rolls": {
+            "image_urls": [
+                "res/img/Parker House Rolls/Parker House Rolls (1).jpg",
+                "res/img/Parker House Rolls/Parker House Rolls (2).jpg"
+            ],
+            "name": "Parker House Rolls",
+            "type": "Candy & Desserts"
+        },
+        "Peanut Brittle": {
+            "image_urls": [
+                "res/img/Peanut Brittle/Peanut Brittle.jpg"
+            ],
+            "name": "Peanut Brittle",
+            "type": "Candy & Desserts"
+        },
+        "Pecan or Walnut Puffs": {
+            "image_urls": [
+                "res/img/Pecan or Walnut Puffs/Pecan or Walnut Puffs - Hulsey.jpg"
+            ],
+            "name": "Pecan or Walnut Puffs",
+            "type": "Candy & Desserts"
+        },
+        "Pistachio Pudding": {
+            "image_urls": [
+                "res/img/Pistachio Pudding/Pistachio Pudding.jpg"
+            ],
+            "name": "Pistachio Pudding",
+            "type": "Candy & Desserts"
+        },
+        "Pumpkin Bread": {
+            "image_urls": [
+                "res/img/Pumpkin Bread/Pumpkin Bread.jpg"
+            ],
+            "name": "Pumpkin Bread",
+            "type": "Candy & Desserts"
+        },
+        "Random Desserts": {
+            "image_urls": [],
+            "name": "Random Desserts",
+            "type": "Candy & Desserts"
+        },
+        "Rice Dainty": {
+            "image_urls": [
+                "res/img/Rice Dainty/Rice Dainty.jpg"
+            ],
+            "name": "Rice Dainty",
+            "type": "Candy & Desserts"
+        },
+        "Rice Pudding - Grandma Mystery": {
+            "image_urls": [
+                "res/img/Rice Pudding - Grandma Mystery/Rice Pudding - Gradma Mystery.jpg"
+            ],
+            "name": "Rice Pudding - Grandma Mystery",
+            "type": "Candy & Desserts"
+        },
+        "Spoon Bread": {
+            "image_urls": [
+                "res/img/Spoon Bread/Spoon Bread.jpg"
+            ],
+            "name": "Spoon Bread",
+            "type": "Candy & Desserts"
+        },
+        "Sweet Potato Apple Raisin Casserole": {
+            "image_urls": [
+                "res/img/Sweet Potato Apple Raisin Casserole/Sweet Potato Apple Raisin Casserole.jpg"
+            ],
+            "name": "Sweet Potato Apple Raisin Casserole",
+            "type": "Candy & Desserts"
+        },
+        "Tapioca Pudding": {
+            "image_urls": [
+                "res/img/Tapioca Pudding/Tapioca Pudding.jpg"
+            ],
+            "name": "Tapioca Pudding",
+            "type": "Candy & Desserts"
+        },
+        "Tomato Soup Cake": {
+            "image_urls": [
+                "res/img/Tomato Soup Cake/Tomato Soup Cake.jpg"
+            ],
+            "name": "Tomato Soup Cake",
+            "type": "Candy & Desserts"
+        },
+        "Tropical Loaf": {
+            "image_urls": [
+                "res/img/Tropical Loaf/Tropical Loaf.jpg"
+            ],
+            "name": "Tropical Loaf",
+            "type": "Candy & Desserts"
+        },
+        "Two Minute Fudge": {
+            "image_urls": [
+                "res/img/Two Minute Fudge/Two Minute Fudge.jpg"
+            ],
+            "name": "Two Minute Fudge",
+            "type": "Candy & Desserts"
+        }
     },
-    'Cottage Cheese Pancakes': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Breakfast/Cottage Cheese Pancakes/Cottage Cheese Pancakes.jpg"],
-      'name': 'Cottage Cheese Pancakes',
-      'type': 'Breakfast'
+    "Casseroles": {
+        "7 Layer Casserole": {
+            "image_urls": [
+                "res/img/7 Layer Casserole/7 Layer Casserole1.jpg",
+                "res/img/7 Layer Casserole/7 Layer Casserole2.jpg"
+            ],
+            "name": "7 Layer Casserole",
+            "type": "Casseroles"
+        },
+        "Bacon Pie - Impossible": {
+            "image_urls": [
+                "res/img/Bacon Pie - Impossible/Bacon Pie - Impossible.jpg"
+            ],
+            "name": "Bacon Pie - Impossible",
+            "type": "Casseroles"
+        },
+        "Beef Casserole": {
+            "image_urls": [
+                "res/img/Beef Casserole/Beef Casserole.jpg"
+            ],
+            "name": "Beef Casserole",
+            "type": "Casseroles"
+        },
+        "Broccoli Casserole": {
+            "image_urls": [
+                "res/img/Broccoli Casserole/Broccoli Casserole.jpg"
+            ],
+            "name": "Broccoli Casserole",
+            "type": "Casseroles"
+        },
+        "Country Garden Casserole": {
+            "image_urls": [
+                "res/img/Country Garden Casserole/Country Garden Casserole1.jpg",
+                "res/img/Country Garden Casserole/Country Garden Casserole2.jpg"
+            ],
+            "name": "Country Garden Casserole",
+            "type": "Casseroles"
+        },
+        "Eggplant Casserole": {
+            "image_urls": [
+                "res/img/Eggplant Casserole/Eggplant Casserole 1.jpg",
+                "res/img/Eggplant Casserole/Eggplant Casserole 2.jpg"
+            ],
+            "name": "Eggplant Casserole",
+            "type": "Casseroles"
+        },
+        "Garden Pie - Impossible": {
+            "image_urls": [
+                "res/img/Garden Pie - Impossible/Garden Pie - Impossible.jpg"
+            ],
+            "name": "Garden Pie - Impossible",
+            "type": "Casseroles"
+        },
+        "Nana Marion's Casserole - Barb": {
+            "image_urls": [
+                "res/img/Nana Marion's Casserole - Barb/Nana Marion's Casserole - Barb.jpg"
+            ],
+            "name": "Nana Marion's Casserole - Barb",
+            "type": "Casseroles"
+        },
+        "Salmon Asparagus Pie": {
+            "image_urls": [
+                "res/img/Salmon Asparagus Pie/Salmon Asparagus Pie 1.jpg",
+                "res/img/Salmon Asparagus Pie/Salmon Asparagus Pie 2.jpg"
+            ],
+            "name": "Salmon Asparagus Pie",
+            "type": "Casseroles"
+        },
+        "Seafood Pie": {
+            "image_urls": [
+                "res/img/Seafood Pie/Seafood Pie - Impossible.jpg"
+            ],
+            "name": "Seafood Pie",
+            "type": "Casseroles"
+        },
+        "Zucchini Casserole": {
+            "image_urls": [
+                "res/img/Zucchini Casserole/Zucchini Casserole - Ann.jpg"
+            ],
+            "name": "Zucchini Casserole",
+            "type": "Casseroles"
+        }
     },
-    'Imitation Strawberry Preserve': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Breakfast/Imitation Strawberry Preserve/Imitation Strawberry Preserve (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Breakfast/Imitation Strawberry Preserve/Imitation Strawberry Preserve (2).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Breakfast/Imitation Strawberry Preserve/Imitation Strawberry Preserve (3).jpg"
-      ],
-      'name': 'Imitation Strawberry Preserve',
-      'type': 'Breakfast'
+    "Cookies": {
+        "Anise Cookies": {
+            "image_urls": [
+                "res/img/Anise Cookies/Anise Cookies.jpg"
+            ],
+            "name": "Anise Cookies",
+            "type": "Cookies"
+        },
+        "Butter Cookies": {
+            "image_urls": [
+                "res/img/Butter Cookies/Butter Cookies.jpg"
+            ],
+            "name": "Butter Cookies",
+            "type": "Cookies"
+        },
+        "Caramel Cookies": {
+            "image_urls": [
+                "res/img/Caramel Cookies/Caramel Cookies.jpg"
+            ],
+            "name": "Caramel Cookies",
+            "type": "Cookies"
+        },
+        "Carrot Cake Cookies": {
+            "image_urls": [
+                "res/img/Carrot Cake Cookies/Carrot Cake Cookies (1).jpg",
+                "res/img/Carrot Cake Cookies/Carrot Cake Cookies (2).jpg",
+                "res/img/Carrot Cake Cookies/Carrot Cake Cookies (3).jpg"
+            ],
+            "name": "Carrot Cake Cookies",
+            "type": "Cookies"
+        },
+        "Chewy Macaroons": {
+            "image_urls": [
+                "res/img/Chewy Macaroons/Chewy Macaroons.jpg"
+            ],
+            "name": "Chewy Macaroons",
+            "type": "Cookies"
+        },
+        "Chewy Oatmeal Cookies": {
+            "image_urls": [
+                "res/img/Chewy Oatmeal Cookies/Chewy Oatmeal Cookies.jpg"
+            ],
+            "name": "Chewy Oatmeal Cookies",
+            "type": "Cookies"
+        },
+        "Chocolate Chip Cookies": {
+            "image_urls": [
+                "res/img/Chocolate Chip Cookies/Chocolate Chip Cookies - Betty Crocker.jpg",
+                "res/img/Chocolate Chip Cookies/Chocolate Chip Cookies V.2.jpg"
+            ],
+            "name": "Chocolate Chip Cookies",
+            "type": "Cookies"
+        },
+        "Chocolate Chip Cookies - Jane's": {
+            "image_urls": [
+                "res/img/Chocolate Chip Cookies - Jane's/Chocolate Chip Cookies - Jane's (1).jpg",
+                "res/img/Chocolate Chip Cookies - Jane's/Chocolate Chip Cookies - Jane's (2).jpg"
+            ],
+            "name": "Chocolate Chip Cookies - Jane's",
+            "type": "Cookies"
+        },
+        "Chocolate Chip Peanut Butter Bars": {
+            "image_urls": [
+                "res/img/Chocolate Chip Peanut Butter Bars/Chocolate Chip Peanut Butter Bars.jpg"
+            ],
+            "name": "Chocolate Chip Peanut Butter Bars",
+            "type": "Cookies"
+        },
+        "Chocolate Drop Cookies": {
+            "image_urls": [
+                "res/img/Chocolate Drop Cookies/Chocolate Drop Cookies.jpg"
+            ],
+            "name": "Chocolate Drop Cookies",
+            "type": "Cookies"
+        },
+        "Chocolate Truffles": {
+            "image_urls": [
+                "res/img/Chocolate Truffles/Chocolate Truffles.jpg"
+            ],
+            "name": "Chocolate Truffles",
+            "type": "Cookies"
+        },
+        "Cottage Cheese Cookies": {
+            "image_urls": [
+                "res/img/Cottage Cheese Cookies/Cottage Cheese Cookies.jpg"
+            ],
+            "name": "Cottage Cheese Cookies",
+            "type": "Cookies"
+        },
+        "Crisp Pecan Cookies": {
+            "image_urls": [
+                "res/img/Crisp Pecan Cookies/Crisp Pecan Cookies.jpg"
+            ],
+            "name": "Crisp Pecan Cookies",
+            "type": "Cookies"
+        },
+        "Date Cookies": {
+            "image_urls": [
+                "res/img/Date Cookies/Date Cookies (1).jpg",
+                "res/img/Date Cookies/Date Cookies (2).jpg"
+            ],
+            "name": "Date Cookies",
+            "type": "Cookies"
+        },
+        "Forgotten Cookies": {
+            "image_urls": [
+                "res/img/Forgotten Cookies/Forgotten Cookies.jpg"
+            ],
+            "name": "Forgotten Cookies",
+            "type": "Cookies"
+        },
+        "Hershey's Chocolate Chip Cookies": {
+            "image_urls": [
+                "res/img/Hershey's Chocolate Chip Cookies/Hershey's Chocolate Chip Cookies.jpg"
+            ],
+            "name": "Hershey's Chocolate Chip Cookies",
+            "type": "Cookies"
+        },
+        "Kay's Sugar Cooky": {
+            "image_urls": [
+                "res/img/Kay's Sugar Cooky/Kay's Sugar Cooky.jpg"
+            ],
+            "name": "Kay's Sugar Cooky",
+            "type": "Cookies"
+        },
+        "Mincemeat Ref. Cookies": {
+            "image_urls": [
+                "res/img/Mincemeat Ref. Cookies/Mincemeat Ref. Cookies.jpg"
+            ],
+            "name": "Mincemeat Ref. Cookies",
+            "type": "Cookies"
+        },
+        "Molasses Spice Cookies": {
+            "image_urls": [
+                "res/img/Molasses Spice Cookies/Molasses Spice Cookies.jpg"
+            ],
+            "name": "Molasses Spice Cookies",
+            "type": "Cookies"
+        },
+        "Oatmeal Coconut Macaroons - Mitzie": {
+            "image_urls": [
+                "res/img/Oatmeal Coconut Macaroons - Mitzie/Oatmeal Coconut Macaroons - Mitzie V.1 (1).jpg",
+                "res/img/Oatmeal Coconut Macaroons - Mitzie/Oatmeal Coconut Macaroons - Mitzie V.2.jpg",
+                "res/img/Oatmeal Coconut Macaroons - Mitzie/Oatmeal Coconut Macaroons Mitzie V.1 (2).jpg"
+            ],
+            "name": "Oatmeal Coconut Macaroons - Mitzie",
+            "type": "Cookies"
+        },
+        "Old Fashioned Soft Molasses Cookies": {
+            "image_urls": [
+                "res/img/Old Fashioned Soft Molasses Cookies/Old Fashioned Soft Molasses Cookies (1).jpg",
+                "res/img/Old Fashioned Soft Molasses Cookies/Old Fashioned Soft Molasses Cookies (2).jpg"
+            ],
+            "name": "Old Fashioned Soft Molasses Cookies",
+            "type": "Cookies"
+        },
+        "Peanut Butter Cookies": {
+            "image_urls": [
+                "res/img/Peanut Butter Cookies/Peanut Butter Cookies.jpg"
+            ],
+            "name": "Peanut Butter Cookies",
+            "type": "Cookies"
+        },
+        "Raisin Oatmeal Cookies": {
+            "image_urls": [
+                "res/img/Raisin Oatmeal Cookies/Raisin Oatmeal Cookies.jpg"
+            ],
+            "name": "Raisin Oatmeal Cookies",
+            "type": "Cookies"
+        },
+        "Ranger Drop Cookies": {
+            "image_urls": [
+                "res/img/Ranger Drop Cookies/Ranger Drop Cookies.jpg"
+            ],
+            "name": "Ranger Drop Cookies",
+            "type": "Cookies"
+        },
+        "Sand Tarts": {
+            "image_urls": [
+                "res/img/Sand Tarts/Sand Tarts V.2.jpg",
+                "res/img/Sand Tarts/Sand Tarts.jpg"
+            ],
+            "name": "Sand Tarts",
+            "type": "Cookies"
+        },
+        "Snickerdoodles": {
+            "image_urls": [
+                "res/img/Snickerdoodles/Snickerdoodles.jpg"
+            ],
+            "name": "Snickerdoodles",
+            "type": "Cookies"
+        },
+        "Spritz Cookies": {
+            "image_urls": [
+                "res/img/Spritz Cookies/Spritz Cookies.jpg"
+            ],
+            "name": "Spritz Cookies",
+            "type": "Cookies"
+        }
     },
-    'Microwave Muffins': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Breakfast/Microwave Muffins/.DS_Store",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Breakfast/Microwave Muffins/Microwave Muffins.jpg"
-      ],
-      'name': 'Microwave Muffins',
-      'type': 'Breakfast'
+    "Dressing, Sauce & Icing": {
+        "Ada's Catalina Dressing": {
+            "image_urls": [
+                "res/img/Ada's Catalina Dressing/Ada's Catalina Dressing.jpg"
+            ],
+            "name": "Ada's Catalina Dressing",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "Basic Dole Golden Sauce": {
+            "image_urls": [
+                "res/img/Basic Dole Golden Sauce/Basic Dole Golden Sauce.jpg"
+            ],
+            "name": "Basic Dole Golden Sauce",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "Cabbage Dressing Esther": {
+            "image_urls": [
+                "res/img/Cabbage Dressing Esther/Cabbage Dressing - Esther.jpg"
+            ],
+            "name": "Cabbage Dressing Esther",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "Chocolate Frosting": {
+            "image_urls": [
+                "res/img/Chocolate Frosting/Chocolate Frosting.jpg"
+            ],
+            "name": "Chocolate Frosting",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "Cocktail Sauce": {
+            "image_urls": [
+                "res/img/Cocktail Sauce/Cocktail Sauce.jpg"
+            ],
+            "name": "Cocktail Sauce",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "Cranberry Sauce": {
+            "image_urls": [
+                "res/img/Cranberry Sauce/Cranberry Sauce.jpg"
+            ],
+            "name": "Cranberry Sauce",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "French Dressing": {
+            "image_urls": [
+                "res/img/French Dressing/French Dressing.jpg"
+            ],
+            "name": "French Dressing",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "Fruit Sauce": {
+            "image_urls": [
+                "res/img/Fruit Sauce/Fruit Sauce.jpg"
+            ],
+            "name": "Fruit Sauce",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "Graham Craker Cust": {
+            "image_urls": [
+                "res/img/Graham Craker Cust/Graham Cracker Crust.jpg"
+            ],
+            "name": "Graham Craker Cust",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "Ham Glaze": {
+            "image_urls": [
+                "res/img/Ham Glaze/Ham Glaze.jpg",
+                "res/img/Ham Glaze/Ham Glaze2.jpg"
+            ],
+            "name": "Ham Glaze",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "Light Vegetable Marinade": {
+            "image_urls": [
+                "res/img/Light Vegetable Marinade/Light Vegetable Marinade.jpg",
+                "res/img/Light Vegetable Marinade/Light Vegetable Marinade2.jpg"
+            ],
+            "name": "Light Vegetable Marinade",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "Low Cal Sour Cream": {
+            "image_urls": [
+                "res/img/Low Cal Sour Cream/Low-Cal Sour Cream.jpg"
+            ],
+            "name": "Low Cal Sour Cream",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "Salad Dressing": {
+            "image_urls": [
+                "res/img/Salad Dressing/Salad Dressing (2).jpg",
+                "res/img/Salad Dressing/Salad Dressing.jpg"
+            ],
+            "name": "Salad Dressing",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "Salad Dressing - Mrs. Scott": {
+            "image_urls": [
+                "res/img/Salad Dressing - Mrs. Scott/Salad Dressing - Mrs. Scott.jpg"
+            ],
+            "name": "Salad Dressing - Mrs. Scott",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "Sandwich Dressing": {
+            "image_urls": [
+                "res/img/Sandwich Dressing/Sandwich Dressing.jpg",
+                "res/img/Sandwich Dressing/Slaw Dressing.jpg"
+            ],
+            "name": "Sandwich Dressing",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "Strawberry Salad Dressing": {
+            "image_urls": [
+                "res/img/Strawberry Salad Dressing/Strawberry Salad Dressing.jpg"
+            ],
+            "name": "Strawberry Salad Dressing",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "Sweet & Sour Sauce-Plus Sauce": {
+            "image_urls": [
+                "res/img/Sweet & Sour Sauce-Plus Sauce/Sweet & Sour-Plus Sauce.jpg"
+            ],
+            "name": "Sweet & Sour Sauce-Plus Sauce",
+            "type": "Dressing, Sauce & Icing"
+        },
+        "UpsideDown Cake Topping": {
+            "image_urls": [
+                "res/img/UpsideDown Cake Topping/Upside Down Cake Topping.jpg"
+            ],
+            "name": "UpsideDown Cake Topping",
+            "type": "Dressing, Sauce & Icing"
+        }
+    },
+    "Drinks": {
+        "Iced Tea": {
+            "image_urls": [
+                "res/img/Iced Tea/Iced Tea.jpg"
+            ],
+            "name": "Iced Tea",
+            "type": "Drinks"
+        },
+        "Orange Julius": {
+            "image_urls": [
+                "res/img/Orange Julius/Orange Julius.jpg"
+            ],
+            "name": "Orange Julius",
+            "type": "Drinks"
+        },
+        "Spice Tea Mix - Barb": {
+            "image_urls": [
+                "res/img/Spice Tea Mix - Barb/Spice Tea Mix - Barb.jpg"
+            ],
+            "name": "Spice Tea Mix - Barb",
+            "type": "Drinks"
+        }
+    },
+    "MISC": {
+        "Bug Spray": {
+            "image_urls": [
+                "res/img/Bug Spray/Big Spray.jpg"
+            ],
+            "name": "Bug Spray",
+            "type": "MISC"
+        },
+        "Chest Poultice": {
+            "image_urls": [
+                "res/img/Chest Poultice/Chest Poultice.jpg"
+            ],
+            "name": "Chest Poultice",
+            "type": "MISC"
+        },
+        "Mix for Covering Jars": {
+            "image_urls": [
+                "res/img/Mix for Covering Jars/Mix for Covering Jars.jpg"
+            ],
+            "name": "Mix for Covering Jars",
+            "type": "MISC"
+        }
+    },
+    "Meals, Appetizers & Sides": {
+        "Baked Ham Slice": {
+            "image_urls": [
+                "res/img/Baked Ham Slice/Baked Ham Slice.jpg"
+            ],
+            "name": "Baked Ham Slice",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Barbeque Ann's": {
+            "image_urls": [
+                "res/img/Barbeque Ann's/Barbeque - Ann's.jpg"
+            ],
+            "name": "Barbeque Ann's",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Beef Pie": {
+            "image_urls": [
+                "res/img/Beef Pie/Beef Pie (1).jpg",
+                "res/img/Beef Pie/Beef Pie (2).jpg"
+            ],
+            "name": "Beef Pie",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Beef with Sour Cream Barb": {
+            "image_urls": [
+                "res/img/Beef with Sour Cream Barb/Beef with Sour Cream - Barb (1).jpg",
+                "res/img/Beef with Sour Cream Barb/Beef with Sour Cream - Barb (2).jpg"
+            ],
+            "name": "Beef with Sour Cream Barb",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Bisquick Roll Ups": {
+            "image_urls": [
+                "res/img/Bisquick Roll Ups/Bisquick Roll Ups.jpg"
+            ],
+            "name": "Bisquick Roll Ups",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Bologna -Paul": {
+            "image_urls": [
+                "res/img/Bologna -Paul/Bologna - Paul.jpg"
+            ],
+            "name": "Bologna -Paul",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Broiled Hamburger": {
+            "image_urls": [
+                "res/img/Broiled Hamburger/Broiled Hamburger.jpg"
+            ],
+            "name": "Broiled Hamburger",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Carrot Ring": {
+            "image_urls": [
+                "res/img/Carrot Ring/Carrot Ring.jpg"
+            ],
+            "name": "Carrot Ring",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Chicken Breasts Piquant": {
+            "image_urls": [
+                "res/img/Chicken Breasts Piquant/Chicken Breasts Piquant (1).jpg",
+                "res/img/Chicken Breasts Piquant/Chicken Breasts Piquant (2).jpg"
+            ],
+            "name": "Chicken Breasts Piquant",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Chicken Parmesan": {
+            "image_urls": [
+                "res/img/Chicken Parmesan/Chicken Parmesan.jpg"
+            ],
+            "name": "Chicken Parmesan",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Chicken Vegetable Stir Fry": {
+            "image_urls": [
+                "res/img/Chicken Vegetable Stir Fry/Chicken Vegetable Stir Fry (1).jpg",
+                "res/img/Chicken Vegetable Stir Fry/Chicken Vegetable Stir Fry (2).jpg"
+            ],
+            "name": "Chicken Vegetable Stir Fry",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Chicken or Turkey Bake with Cheese Swirls": {
+            "image_urls": [
+                "res/img/Chicken or Turkey Bake with Cheese Swirls/Chicken or Turkey Bake with Cheese Swirls (1).jpg",
+                "res/img/Chicken or Turkey Bake with Cheese Swirls/Chicken or Turkey Bake with Cheese Swirls (2).jpg"
+            ],
+            "name": "Chicken or Turkey Bake with Cheese Swirls",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Corn Pudding": {
+            "image_urls": [
+                "res/img/Corn Pudding/Corn Pudding.jpg"
+            ],
+            "name": "Corn Pudding",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Easy Garden Bake": {
+            "image_urls": [
+                "res/img/Easy Garden Bake/Easy Garden Bake.jpg"
+            ],
+            "name": "Easy Garden Bake",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Egg Foo Young": {
+            "image_urls": [
+                "res/img/Egg Foo Young/Egg Foo Young (1).jpg",
+                "res/img/Egg Foo Young/Egg Foo Young (2).jpg"
+            ],
+            "name": "Egg Foo Young",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Garden Pasta Doug": {
+            "image_urls": [
+                "res/img/Garden Pasta Doug/Garden Pasta - Doug.jpg"
+            ],
+            "name": "Garden Pasta Doug",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Ground Beef & Garden Sautee": {
+            "image_urls": [
+                "res/img/Ground Beef & Garden Sautee/Ground Beef & Garden Sautee (1).jpg",
+                "res/img/Ground Beef & Garden Sautee/Ground Beef & Garden Sautee (2).jpg"
+            ],
+            "name": "Ground Beef & Garden Sautee",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Homemade Noodles": {
+            "image_urls": [
+                "res/img/Homemade Noodles/Homemade Noodles.jpg"
+            ],
+            "name": "Homemade Noodles",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Jane's Beans": {
+            "image_urls": [
+                "res/img/Jane's Beans/Jane's Beans.jpg"
+            ],
+            "name": "Jane's Beans",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Kay's Potatoes Barb": {
+            "image_urls": [
+                "res/img/Kay's Potatoes Barb/Kay's Potatoes - Barb.jpg"
+            ],
+            "name": "Kay's Potatoes Barb",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Lasagna Barb": {
+            "image_urls": [
+                "res/img/Lasagna Barb/Lasagna - Barb (1).jpg",
+                "res/img/Lasagna Barb/Lasagna - Barb (2).jpg",
+                "res/img/Lasagna Barb/Lasagna - Barb (3).jpg"
+            ],
+            "name": "Lasagna Barb",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Layered Beef and Zucchini": {
+            "image_urls": [
+                "res/img/Layered Beef and Zucchini/Layered Beef and Zucchini (1).jpg",
+                "res/img/Layered Beef and Zucchini/Layered Beef and Zucchini (2).jpg"
+            ],
+            "name": "Layered Beef and Zucchini",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Marylin Goodinberg's Dip": {
+            "image_urls": [
+                "res/img/Marylin Goodinberg's Dip/Marylin Goodinberg's Dip.jpg"
+            ],
+            "name": "Marylin Goodinberg's Dip",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Meat Loaf": {
+            "image_urls": [
+                "res/img/Meat Loaf/Meat Loaf.jpg",
+                "res/img/Meat Loaf/Meatloaf.jpg"
+            ],
+            "name": "Meat Loaf",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Mexican Dip": {
+            "image_urls": [
+                "res/img/Mexican Dip/Mexican Dip (1).jpg",
+                "res/img/Mexican Dip/Mexican Dip (2).jpg"
+            ],
+            "name": "Mexican Dip",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Mushroom Meatballs": {
+            "image_urls": [
+                "res/img/Mushroom Meatballs/Mushroom Meatballs.jpg"
+            ],
+            "name": "Mushroom Meatballs",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Old Fashioned Bread Stuffing": {
+            "image_urls": [
+                "res/img/Old Fashioned Bread Stuffing/Old Fashioned Bread Stuffing.jpg"
+            ],
+            "name": "Old Fashioned Bread Stuffing",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Oven Fried Chicken": {
+            "image_urls": [
+                "res/img/Oven Fried Chicken/Oven Fried Chicken.jpg"
+            ],
+            "name": "Oven Fried Chicken",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Party Mix": {
+            "image_urls": [
+                "res/img/Party Mix/Party Mix.jpg"
+            ],
+            "name": "Party Mix",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Pimento Cheese Salad Dressing": {
+            "image_urls": [
+                "res/img/Pimento Cheese Salad Dressing/Pimento Cheese Salad Dressing.jpg"
+            ],
+            "name": "Pimento Cheese Salad Dressing",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Pita Sandwich": {
+            "image_urls": [
+                "res/img/Pita Sandwich/Pita Sandwich.jpg"
+            ],
+            "name": "Pita Sandwich",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Porcupine Meatballs": {
+            "image_urls": [
+                "res/img/Porcupine Meatballs/Porcupine Meatballs (1).jpg",
+                "res/img/Porcupine Meatballs/Porcupine Meatballs (2).jpg"
+            ],
+            "name": "Porcupine Meatballs",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Porkchops with Applesauce": {
+            "image_urls": [
+                "res/img/Porkchops with Applesauce/Porkchops with Applesauce.jpg"
+            ],
+            "name": "Porkchops with Applesauce",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Potato & Herb Bake": {
+            "image_urls": [
+                "res/img/Potato & Herb Bake/Potato & Herb Bake.jpg"
+            ],
+            "name": "Potato & Herb Bake",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Ranch Style Dressing": {
+            "image_urls": [
+                "res/img/Ranch Style Dressing/Ranch Style Beans.jpg"
+            ],
+            "name": "Ranch Style Dressing",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Red Wine Red Cabbage": {
+            "image_urls": [
+                "res/img/Red Wine Red Cabbage/Red Wine Red Cabbage (1).jpg",
+                "res/img/Red Wine Red Cabbage/Red Wine Red Cabbage (2).jpg"
+            ],
+            "name": "Red Wine Red Cabbage",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Roast Lamb Italian Style Bert": {
+            "image_urls": [
+                "res/img/Roast Lamb Italian Style Bert/Roast Lamb Italian Style - Bert.jpg"
+            ],
+            "name": "Roast Lamb Italian Style Bert",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Sausage Paul": {
+            "image_urls": [
+                "res/img/Sausage Paul/Sausage - Paul.jpg",
+                "res/img/Sausage Paul/Sausage Paul 2.jpg"
+            ],
+            "name": "Sausage Paul",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Sauteed Veggies": {
+            "image_urls": [
+                "res/img/Sauteed Veggies/Sauteed Veggies (1).jpg",
+                "res/img/Sauteed Veggies/Sauteed Veggies (2).jpg"
+            ],
+            "name": "Sauteed Veggies",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Scallopped Eggplant": {
+            "image_urls": [
+                "res/img/Scallopped Eggplant/Scallopped Eggplant.jpg"
+            ],
+            "name": "Scallopped Eggplant",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Scrapple": {
+            "image_urls": [
+                "res/img/Scrapple/Scrapple - Paul.jpg"
+            ],
+            "name": "Scrapple",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Showman Baked Beans": {
+            "image_urls": [
+                "res/img/Showman Baked Beans/Showman Baked Beans.jpg"
+            ],
+            "name": "Showman Baked Beans",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Stuffed Cabbage": {
+            "image_urls": [
+                "res/img/Stuffed Cabbage/Stuffed Cabbage (1).jpg",
+                "res/img/Stuffed Cabbage/Stuffed Cabbage (2).jpg"
+            ],
+            "name": "Stuffed Cabbage",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Stuffed Green Peppers": {
+            "image_urls": [
+                "res/img/Stuffed Green Peppers/Stuffed Green Peppers.jpg"
+            ],
+            "name": "Stuffed Green Peppers",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Stuffed Zucchini": {
+            "image_urls": [
+                "res/img/Stuffed Zucchini/Stuffed Zucchini (1).jpg",
+                "res/img/Stuffed Zucchini/Stuffed Zucchini (2).jpg"
+            ],
+            "name": "Stuffed Zucchini",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Swedish Meatballs": {
+            "image_urls": [
+                "res/img/Swedish Meatballs/Swedish Meatballs.jpg"
+            ],
+            "name": "Swedish Meatballs",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Swiss Vegetable Medley": {
+            "image_urls": [
+                "res/img/Swiss Vegetable Medley/Swiss Vegetable Medley.jpg"
+            ],
+            "name": "Swiss Vegetable Medley",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Toast Bread": {
+            "image_urls": [
+                "res/img/Toast Bread/Toast Bread.jpg"
+            ],
+            "name": "Toast Bread",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Tomato Lasagana Roll Ups": {
+            "image_urls": [
+                "res/img/Tomato Lasagana Roll Ups/Tomato Lasagna Roll Ups.jpg"
+            ],
+            "name": "Tomato Lasagana Roll Ups",
+            "type": "Meals, Appetizers & Sides"
+        },
+        "Vegetable Strata Barb": {
+            "image_urls": [
+                "res/img/Vegetable Strata Barb/Vegetable Strata - Barb (1).jpg",
+                "res/img/Vegetable Strata Barb/Vegetable Strata - Barb (2).jpg"
+            ],
+            "name": "Vegetable Strata Barb",
+            "type": "Meals, Appetizers & Sides"
+        }
+    },
+    "Mexican Food": {
+        "Beef Enchilada": {
+            "image_urls": [
+                "res/img/Beef Enchilada/Beef Enchilada.jpg",
+                "res/img/Beef Enchilada/Beef Enchiladas.jpg"
+            ],
+            "name": "Beef Enchilada",
+            "type": "Mexican Food"
+        },
+        "Beef Enchilada Pie  Impossible": {
+            "image_urls": [
+                "res/img/Beef Enchilada Pie  Impossible/Beef Enchilada Pie - Impossible (1).jpg",
+                "res/img/Beef Enchilada Pie  Impossible/Beef Enchilada Pie - Impossible (2).jpg"
+            ],
+            "name": "Beef Enchilada Pie  Impossible",
+            "type": "Mexican Food"
+        },
+        "Beef Tortilla Pie": {
+            "image_urls": [
+                "res/img/Beef Tortilla Pie/Beef Tortilla Pie (1).jpg",
+                "res/img/Beef Tortilla Pie/Beef Tortilla Pie (2).jpg"
+            ],
+            "name": "Beef Tortilla Pie",
+            "type": "Mexican Food"
+        },
+        "Chicken Enchiladas": {
+            "image_urls": [
+                "res/img/Chicken Enchiladas/Chicken Enchiladas.jpg"
+            ],
+            "name": "Chicken Enchiladas",
+            "type": "Mexican Food"
+        },
+        "Chili Rellenos Barb": {
+            "image_urls": [
+                "res/img/Chili Rellenos Barb/Chili Rellenos - Barb 01.jpg",
+                "res/img/Chili Rellenos Barb/Chili Rellenos - Barb 02.jpg"
+            ],
+            "name": "Chili Rellenos Barb",
+            "type": "Mexican Food"
+        },
+        "Easy Enchiladas": {
+            "image_urls": [
+                "res/img/Easy Enchiladas/Easy Enchiladas.jpg"
+            ],
+            "name": "Easy Enchiladas",
+            "type": "Mexican Food"
+        },
+        "Enchilada Poblano": {
+            "image_urls": [
+                "res/img/Enchilada Poblano/Enchilada Poblano.jpg"
+            ],
+            "name": "Enchilada Poblano",
+            "type": "Mexican Food"
+        },
+        "Green Enchilada Pie": {
+            "image_urls": [
+                "res/img/Green Enchilada Pie/Green Enchilada Pie.jpg"
+            ],
+            "name": "Green Enchilada Pie",
+            "type": "Mexican Food"
+        },
+        "Mexican Pizza": {
+            "image_urls": [
+                "res/img/Mexican Pizza/Mexican Pizza.jpg"
+            ],
+            "name": "Mexican Pizza",
+            "type": "Mexican Food"
+        },
+        "Tamale Joe Casserole": {
+            "image_urls": [
+                "res/img/Tamale Joe Casserole/Tamale Joe Casserole (1).jpg",
+                "res/img/Tamale Joe Casserole/Tamale Joe Casserole (2).jpg"
+            ],
+            "name": "Tamale Joe Casserole",
+            "type": "Mexican Food"
+        },
+        "Tamale Pie": {
+            "image_urls": [
+                "res/img/Tamale Pie/Tamale Pie 2.jpg",
+                "res/img/Tamale Pie/Tamale Pie.jpg"
+            ],
+            "name": "Tamale Pie",
+            "type": "Mexican Food"
+        },
+        "Tortilla Pie": {
+            "image_urls": [
+                "res/img/Tortilla Pie/Tortilla Pie (1).jpg",
+                "res/img/Tortilla Pie/Tortilla Pie (2).jpg"
+            ],
+            "name": "Tortilla Pie",
+            "type": "Mexican Food"
+        }
+    },
+    "Pies": {
+        "Bev's Chocolate Pie": {
+            "image_urls": [
+                "res/img/Bev's Chocolate Pie/Bev's Chocolate Pie (1).jpg",
+                "res/img/Bev's Chocolate Pie/Bev's Chocolate Pie (2).jpg"
+            ],
+            "name": "Bev's Chocolate Pie",
+            "type": "Pies"
+        },
+        "Cheese Pie Lee": {
+            "image_urls": [
+                "res/img/Cheese Pie Lee/Cheese Pie - Lee.jpg"
+            ],
+            "name": "Cheese Pie Lee",
+            "type": "Pies"
+        },
+        "Chocolate Bar Pie with Graham Cracker Crust": {
+            "image_urls": [
+                "res/img/Chocolate Bar Pie with Graham Cracker Crust/Chocolate Bar Pie with Graham Cracker Crust (1).jpg",
+                "res/img/Chocolate Bar Pie with Graham Cracker Crust/Chocolate Bar Pie with Graham Cracker Crust (2).jpg"
+            ],
+            "name": "Chocolate Bar Pie with Graham Cracker Crust",
+            "type": "Pies"
+        },
+        "Coconut Custard Pie": {
+            "image_urls": [
+                "res/img/Coconut Custard Pie/Coconut Custard Pie.jpg"
+            ],
+            "name": "Coconut Custard Pie",
+            "type": "Pies"
+        },
+        "Cranberry Pie": {
+            "image_urls": [
+                "res/img/Cranberry Pie/Cranberry Pie.jpg"
+            ],
+            "name": "Cranberry Pie",
+            "type": "Pies"
+        },
+        "Cream Cheese Pie": {
+            "image_urls": [
+                "res/img/Cream Cheese Pie/Cream Cheese Pie.jpg"
+            ],
+            "name": "Cream Cheese Pie",
+            "type": "Pies"
+        },
+        "Cruch Pie": {
+            "image_urls": [
+                "res/img/Cruch Pie/Crunch Pie.jpg"
+            ],
+            "name": "Cruch Pie",
+            "type": "Pies"
+        },
+        "Easy Bake Apple Pie": {
+            "image_urls": [
+                "res/img/Easy Bake Apple Pie/Easy Bake Apple Pie.jpg"
+            ],
+            "name": "Easy Bake Apple Pie",
+            "type": "Pies"
+        },
+        "Impossible Pie": {
+            "image_urls": [
+                "res/img/Impossible Pie/Impossible Pie.jpg"
+            ],
+            "name": "Impossible Pie",
+            "type": "Pies"
+        },
+        "Lemon Meringue Pie": {
+            "image_urls": [
+                "res/img/Lemon Meringue Pie/Lemon Meringue Pie (1).jpg",
+                "res/img/Lemon Meringue Pie/Lemon Meringue Pie (2).jpg"
+            ],
+            "name": "Lemon Meringue Pie",
+            "type": "Pies"
+        },
+        "Lemon Pie Ann Landers": {
+            "image_urls": [
+                "res/img/Lemon Pie Ann Landers/Lemon Pie - Ann Landers (1).jpg",
+                "res/img/Lemon Pie Ann Landers/Lemon Pie - Ann Landers (2).jpg"
+            ],
+            "name": "Lemon Pie Ann Landers",
+            "type": "Pies"
+        },
+        "Mock Apple Pie": {
+            "image_urls": [
+                "res/img/Mock Apple Pie/Mock Apple Pie.jpg"
+            ],
+            "name": "Mock Apple Pie",
+            "type": "Pies"
+        },
+        "Molasses Crumb Pie": {
+            "image_urls": [
+                "res/img/Molasses Crumb Pie/Molasses Crumb Pie (1).jpg",
+                "res/img/Molasses Crumb Pie/Molasses Crumb Pie (2).jpg",
+                "res/img/Molasses Crumb Pie/Molasses Crumb Pie.jpg"
+            ],
+            "name": "Molasses Crumb Pie",
+            "type": "Pies"
+        },
+        "Mystery Crumb Pie": {
+            "image_urls": [
+                "res/img/Mystery Crumb Pie/Mystery Crumb Pie.jpg"
+            ],
+            "name": "Mystery Crumb Pie",
+            "type": "Pies"
+        },
+        "Old Fashioned Apple Crumb Pie": {
+            "image_urls": [
+                "res/img/Old Fashioned Apple Crumb Pie/Old Fashioned Apple Crumb Pie.jpg"
+            ],
+            "name": "Old Fashioned Apple Crumb Pie",
+            "type": "Pies"
+        },
+        "Orange Cheese Pie": {
+            "image_urls": [
+                "res/img/Orange Cheese Pie/Orange Cheese Pie.jpg"
+            ],
+            "name": "Orange Cheese Pie",
+            "type": "Pies"
+        },
+        "Pumpkin Chiffon Pie": {
+            "image_urls": [
+                "res/img/Pumpkin Chiffon Pie/Pumpkin Chiffon Pie (1).jpg",
+                "res/img/Pumpkin Chiffon Pie/Pumpkin Chiffon Pie (2).jpg"
+            ],
+            "name": "Pumpkin Chiffon Pie",
+            "type": "Pies"
+        },
+        "Pumpkin Pie": {
+            "image_urls": [
+                "res/img/Pumpkin Pie/Pumpkin Pie - Famous.jpg",
+                "res/img/Pumpkin Pie/Pumpkin Pie - Libby's.jpg"
+            ],
+            "name": "Pumpkin Pie",
+            "type": "Pies"
+        },
+        "Pumpkin Pie Impossible": {
+            "image_urls": [
+                "res/img/Pumpkin Pie Impossible/Pumpkin Pie - Impossible.jpg"
+            ],
+            "name": "Pumpkin Pie Impossible",
+            "type": "Pies"
+        },
+        "Shoo Fly Pie": {
+            "image_urls": [
+                "res/img/Shoo Fly Pie/Shoo Fly Pie (1).jpg",
+                "res/img/Shoo Fly Pie/Shoo Fly Pie (2).jpg"
+            ],
+            "name": "Shoo Fly Pie",
+            "type": "Pies"
+        }
+    },
+    "Salads": {
+        "3 Bean Salad": {
+            "image_urls": [
+                "res/img/3 Bean Salad/3 Bean Salad1.jpg",
+                "res/img/3 Bean Salad/3 Bean Salad2.jpg"
+            ],
+            "name": "3 Bean Salad",
+            "type": "Salads"
+        },
+        "5 Bean Salad": {
+            "image_urls": [
+                "res/img/5 Bean Salad/5 Bean Salad1.jpg",
+                "res/img/5 Bean Salad/5 Bean Salad2.jpg"
+            ],
+            "name": "5 Bean Salad",
+            "type": "Salads"
+        },
+        "5 Cup Salad": {
+            "image_urls": [
+                "res/img/5 Cup Salad/5 Cup Salad.jpg"
+            ],
+            "name": "5 Cup Salad",
+            "type": "Salads"
+        },
+        "7 Layer Salad": {
+            "image_urls": [
+                "res/img/7 Layer Salad/7 Layer Salad.jpg"
+            ],
+            "name": "7 Layer Salad",
+            "type": "Salads"
+        },
+        "Betty Hill Salad": {
+            "image_urls": [
+                "res/img/Betty Hill Salad/Betty Hill Salad1.jpg",
+                "res/img/Betty Hill Salad/Betty Hill Salad2.jpg"
+            ],
+            "name": "Betty Hill Salad",
+            "type": "Salads"
+        },
+        "Cottage Cheese Salad": {
+            "image_urls": [
+                "res/img/Cottage Cheese Salad/Cottage Cheese Salad.jpg"
+            ],
+            "name": "Cottage Cheese Salad",
+            "type": "Salads"
+        },
+        "Easy Garden Bake": {
+            "image_urls": [
+                "res/img/Easy Garden Bake/Easy Garden Bake.jpg"
+            ],
+            "name": "Easy Garden Bake",
+            "type": "Salads"
+        },
+        "German Potato Salad": {
+            "image_urls": [
+                "res/img/German Potato Salad/German Potato Salad1.jpg",
+                "res/img/German Potato Salad/German Potato Salad2.jpg",
+                "res/img/German Potato Salad/German Potato Salad3.jpg"
+            ],
+            "name": "German Potato Salad",
+            "type": "Salads"
+        },
+        "Good Luck Beans": {
+            "image_urls": [
+                "res/img/Good Luck Beans/Good Luck Beans.jpg"
+            ],
+            "name": "Good Luck Beans",
+            "type": "Salads"
+        },
+        "Kidney Bean Salad": {
+            "image_urls": [
+                "res/img/Kidney Bean Salad/Kidney Bean Salad.jpg"
+            ],
+            "name": "Kidney Bean Salad",
+            "type": "Salads"
+        },
+        "Kraut Salad": {
+            "image_urls": [
+                "res/img/Kraut Salad/Kraut Salad.jpg"
+            ],
+            "name": "Kraut Salad",
+            "type": "Salads"
+        },
+        "Layered Garden Pasta Salad": {
+            "image_urls": [
+                "res/img/Layered Garden Pasta Salad/Layered Garden Pasta Salad.jpg"
+            ],
+            "name": "Layered Garden Pasta Salad",
+            "type": "Salads"
+        },
+        "Spinach Corn Salad": {
+            "image_urls": [
+                "res/img/Spinach Corn Salad/Spinach Corn Salad.jpg"
+            ],
+            "name": "Spinach Corn Salad",
+            "type": "Salads"
+        },
+        "Tostada Salad": {
+            "image_urls": [
+                "res/img/Tostada Salad/Tostada Salad1.jpg",
+                "res/img/Tostada Salad/Tostada Salad2.jpg"
+            ],
+            "name": "Tostada Salad",
+            "type": "Salads"
+        },
+        "Waldorf Salad": {
+            "image_urls": [
+                "res/img/Waldorf Salad/Waldorf Salad.jpg"
+            ],
+            "name": "Waldorf Salad",
+            "type": "Salads"
+        },
+        "Wilted Lettuce": {
+            "image_urls": [
+                "res/img/Wilted Lettuce/Wilted Lettuce1.jpg",
+                "res/img/Wilted Lettuce/Wilted Lettuce2.jpg"
+            ],
+            "name": "Wilted Lettuce",
+            "type": "Salads"
+        }
+    },
+    "Soups": {
+        "Barley Stew": {
+            "image_urls": [
+                "res/img/Barley Stew/Barley Stew (1).jpg",
+                "res/img/Barley Stew/Barley Stew (2).jpg"
+            ],
+            "name": "Barley Stew",
+            "type": "Soups"
+        },
+        "Harold's Vegetable Soup": {
+            "image_urls": [
+                "res/img/Harold's Vegetable Soup/Harold's Vegetable Soup (1).jpg",
+                "res/img/Harold's Vegetable Soup/Harold's Vegetable Soup (2).jpg"
+            ],
+            "name": "Harold's Vegetable Soup",
+            "type": "Soups"
+        },
+        "Phyllis' Taco Soup": {
+            "image_urls": [
+                "res/img/Phyllis' Taco Soup/Phyllis' Taco Soup.jpg"
+            ],
+            "name": "Phyllis' Taco Soup",
+            "type": "Soups"
+        },
+        "Taco Soup": {
+            "image_urls": [
+                "res/img/Taco Soup/Taco Soup.jpg"
+            ],
+            "name": "Taco Soup",
+            "type": "Soups"
+        }
     }
-  },
-  {
-    'Apple Cake': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Apple Cake/Apple Cake V.1.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Apple Cake/Apple Cake V.2 - Sara (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Apple Cake/Apple Cake V.2 - Sara (2).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Apple Cake/Apple Cake V.3.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Apple Cake/Apple Cake V.4.jpg"
-      ],
-      'name': 'Apple Cake',
-      'type': 'Cakes'
-    },
-    'Apple Sauce Cake': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Apple Sauce Cake/Apple Sauce Cake V.2 (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Apple Sauce Cake/Apple Sauce Cake V.2 (2).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Apple Sauce Cake/Apple Sauce Cake V.2 (3).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Apple Sauce Cake/Apple Sauce Cake.jpg"
-      ],
-      'name': 'Apple Sauce Cake',
-      'type': 'Cakes'
-    },
-    'Baking Mix': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Baking Mix/Baking Mix.jpg"],
-      'name': 'Baking Mix',
-      'type': 'Cakes'
-    },
-    'Banana Cake': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Banana Cake/Banana Cake.jpg"],
-      'name': 'Banana Cake',
-      'type': 'Cakes'
-    },
-    'Cheap Skate Cake': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Cheap Skate Cake/Cheap Skate Cake.jpg"],
-      'name': 'Cheap Skate Cake',
-      'type': 'Cakes'
-    },
-    'Cheese Cake': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Cheese Cake/Cheese Cake - Betty O.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Cheese Cake/Cheese Cake - Betty O2.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Cheese Cake/Cheese Cake - Lee's.jpg"
-      ],
-      'name': 'Cheese Cake',
-      'type': 'Cakes'
-    },
-    'Chocolate Cake': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Chocolate Cake/Chocolate Cake - Ruth O.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Chocolate Cake/Chocolate Cake V.2.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Chocolate Cake/Chocolate Cake.jpg"
-      ],
-      'name': 'Chocolate Cake',
-      'type': 'Cakes'
-    },
-    'Chocolate Sauerkraut Cake': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Chocolate Sauerkraut Cake/Chocolate Sauerkraut Cake (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Chocolate Sauerkraut Cake/Chocolate Sauerkraut Cake (2).jpg"
-      ],
-      'name': 'Chocolate Sauerkraut Cake',
-      'type': 'Cakes'
-    },
-    'Christmas Prune Cake': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Christmas Prune Cake/Christmas Prune Cake.jpg"],
-      'name': 'Christmas Prune Cake',
-      'type': 'Cakes'
-    },
-    'Cranberry Bundt Cake': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Cranberry Bundt Cake/Cranberry Bundt Cake (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Cranberry Bundt Cake/Cranberry Bundt Cake (2).jpg"
-      ],
-      'name': 'Cranberry Bundt Cake',
-      'type': 'Cakes'
-    },
-    'Fruit Cocktail Cake': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Fruit Cocktail Cake/Fruit Cocktail Cake.jpg"],
-      'name': 'Fruit Cocktail Cake',
-      'type': 'Cakes'
-    },
-    'Fudge Brownies': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Fudge Brownies/Fudge Brownies.jpg"],
-      'name': 'Fudge Brownies',
-      'type': 'Cakes'
-    },
-    'Goofy Cake': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Goofy Cake/Goofy Cake.jpg"],
-      'name': 'Goofy Cake',
-      'type': 'Cakes'
-    },
-    'Hawaiian Wedding Cake': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Hawaiian Wedding Cake/Hawaiian Wedding Cake.jpg"],
-      'name': 'Hawaiian Wedding Cake',
-      'type': 'Cakes'
-    },
-    'Lemon Loaf': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Lemon Loaf/Lemon Loaf (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Lemon Loaf/Lemon Loaf (2).jpg"
-      ],
-      'name': 'Lemon Loaf',
-      'type': 'Cakes'
-    },
-    'Meringue Cake': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Meringue Cake/Meringue Cake (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Meringue Cake/Meringue Cake (2).jpg"
-      ],
-      'name': 'Meringue Cake',
-      'type': 'Cakes'
-    },
-    'Mississippi Mud Cake': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Mississippi Mud Cake/Mississippi Mud Cake (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Mississippi Mud Cake/Mississippi Mud Cake (2).jpg"
-      ],
-      'name': 'Mississippi Mud Cake',
-      'type': 'Cakes'
-    },
-    "Mom's French Apple Cake": {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Mom's French Apple Cake/Mom's Fresh Apple Cake.jpg"],
-      'name': "Mom's French Apple Cake",
-      'type': 'Cakes'
-    },
-    'Oatmeal Cake': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Oatmeal Cake/Oatmeal Cake (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Oatmeal Cake/Oatmeal Cake (2).jpg"
-      ],
-      'name': 'Oatmeal Cake',
-      'type': 'Cakes'
-    },
-    'Orange Kiss Me Cake': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Orange Kiss Me Cake/Orange Kiss Me Cake - Geraldine Hill (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Orange Kiss Me Cake/Orange Kiss Me Cake - Geraldine Hill (2).jpg"
-      ],
-      'name': 'Orange Kiss Me Cake',
-      'type': 'Cakes'
-    },
-    'Picnic Cake': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Picnic Cake/Picnic Cake.jpg"],
-      'name': 'Picnic Cake',
-      'type': 'Cakes'
-    },
-    'Pineapple UpsideDown Cake & Dinette Cake': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Pineapple UpsideDown Cake & Dinette Cake/Pinapple UpsideDown Cake and Dinette Cake (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Pineapple UpsideDown Cake & Dinette Cake/Pinapple UpsideDown Cake and Dinette Cake (2).jpg"
-      ],
-      'name': 'Pineapple UpsideDown Cake & Dinette Cake',
-      'type': 'Cakes'
-    },
-    'Red Velvet Cake': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Red Velvet Cake/Red Velvet Cake and Frosting (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Red Velvet Cake/Red Velvet Cake and Frosting (2).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Red Velvet Cake/Red Velvet Cake V.2 (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Red Velvet Cake/Red Velvet Cake V.2 (2).jpg"
-      ],
-      'name': 'Red Velvet Cake',
-      'type': 'Cakes'
-    },
-    'Sour Cream Coffee Cake': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Sour Cream Coffee Cake/Sour Cream Coffee Cake (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Sour Cream Coffee Cake/Sour Cream Coffee Cake (2).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Sour Cream Coffee Cake/Sour Cream Coffee Cake (3).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Sour Cream Coffee Cake/Sour Cream Coffee Cake (4).jpg"
-      ],
-      'name': 'Sour Cream Coffee Cake',
-      'type': 'Cakes'
-    },
-    'Uncooked Fruit Cake': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Uncooked Fruit Cake/Uncooked Fruit Cake (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Uncooked Fruit Cake/Uncooked Fruit Cake (2).jpg"
-      ],
-      'name': 'Uncooked Fruit Cake',
-      'type': 'Cakes'
-    },
-    'Velvet Crumb Cake': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Velvet Crumb Cake/Velvet Crumb Cake (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Velvet Crumb Cake/Velvet Crumb Cake (2).jpg"
-      ],
-      'name': 'Velvet Crumb Cake',
-      'type': 'Cakes'
-    },
-    'Watergate Cake': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Cakes/Watergate Cake/Watergate Cake.jpg"],
-      'name': 'Watergate Cake',
-      'type': 'Cakes'
-    }
-  },
-  {
-    'Ambrosia': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Ambrosia/Ambrosia.jpg"],
-      'name': 'Ambrosia',
-      'type': 'Candy & Desserts'
-    },
-    'Apple Chutney': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Apple Chutney/Apple Chutney.jpg"],
-      'name': 'Apple Chutney',
-      'type': 'Candy & Desserts'
-    },
-    'Candy Porcupines': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Candy Porcupines/Candy Porcupines.jpg"],
-      'name': 'Candy Porcupines',
-      'type': 'Candy & Desserts'
-    },
-    'Chocolate Peanut Butter Eggs': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Chocolate Peanut Butter Eggs/Chocolate Peanut Butter Eggs.jpg"],
-      'name': 'Chocolate Peanut Butter Eggs',
-      'type': 'Candy & Desserts'
-    },
-    'Date Sticks': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Date Sticks/Date Sticks (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Date Sticks/Date Sticks (2).jpg"
-      ],
-      'name': 'Date Sticks',
-      'type': 'Candy & Desserts'
-    },
-    "Gramma O's Fudge Recipe": {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Gramma O's Fudge Recipe/Grandma O's Fudge Recipe (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Gramma O's Fudge Recipe/Grandma O's Fudge Recipe (2).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Gramma O's Fudge Recipe/Grandma O's Fudge Recipe (3).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Gramma O's Fudge Recipe/Grandma O's Fudge Recipe (4).jpg"
-      ],
-      'name': "Gramma O's Fudge Recipe",
-      'type': 'Candy & Desserts'
-    },
-    'Ivinity Microwave': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Ivinity Microwave/Ivinity Microwave (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Ivinity Microwave/Ivinity Microwave (2).jpg"
-      ],
-      'name': 'Ivinity Microwave',
-      'type': 'Candy & Desserts'
-    },
-    'Lightning Microwave Fudge': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Lightning Microwave Fudge/Lightning Microwave Fudge.jpg"],
-      'name': 'Lightning Microwave Fudge',
-      'type': 'Candy & Desserts'
-    },
-    'Microwave Peanut Brittle': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Microwave Peanut Brittle/Microwave Peanut Brittle (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Microwave Peanut Brittle/Microwave Peanut Brittle (2).jpg"
-      ],
-      'name': 'Microwave Peanut Brittle',
-      'type': 'Candy & Desserts'
-    },
-    'Peanut Brittle': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Peanut Brittle/Peanut Brittle.jpg"],
-      'name': 'Peanut Brittle',
-      'type': 'Candy & Desserts'
-    },
-    'Pecan or Walnut Puffs': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Pecan or Walnut Puffs/Pecan or Walnut Puffs - Hulsey.jpg"],
-      'name': 'Pecan or Walnut Puffs',
-      'type': 'Candy & Desserts'
-    },
-    'Random Desserts': {
-      'image_urls': [
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Banana Mallow.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Betty's Sour Cream Fruit Salad.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Bev's Cranberry Salad V.3 (2).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Bev's Cranberry Salad V.3.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Beverly's Cranberry Salad V.2.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Beverly's Cranberry Salad.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Black Walnut Nut Bread.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Blackberry Pudding with Lemon Sauce (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Blackberry Pudding with Lemon Sauce (2).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Bread Pudding.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Caramel Rolls (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Caramel Rolls (2).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Cinnamon Apple Sauce Mold.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Cobbler (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Cobbler (2).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Corn Starch Pudding.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Cranberry Nut Bread.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Cranberry Orange Relish V.2.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Cranberry Orange Relish.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Cranberry Relish.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Cranberry Salad.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Cup Custard.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Florence's Heavenly Hash.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Frozen Orange Pudding.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Fruit Fluff.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Hot Milk Sponge.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Indian Fry Bread - Betty.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Jello Salad.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Mary's Gingerale Fruit Salad.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Minute Tapioca Pudding.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Mrs. Sims Apple Pudding & Sauce  (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Mrs. Sims Apple Pudding & Sauce  (2).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Mystery Tarte (2).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Mystery Tarte.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Orange Moss.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Parker House Rolls (1).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Parker House Rolls (2).jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Pistachio Pudding.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Pumpkin Bread.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Rice Dainty.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Rice Pudding - Gradma Mystery.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Spoon Bread.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Sweet Potato Apple Raisin Casserole.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Tapioca Pudding.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Tomato Soup Cake.jpg",
-        "/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Random Desserts/Tropical Loaf.jpg"
-      ],
-      'name': 'Random Desserts',
-      'type': 'Candy & Desserts'
-    },
-    'Two Minute Fudge': {
-      'image_urls': ["/Users/maxwellclarke/Dropbox/Documents/Gramma O's Recipe Project/Candy & Desserts/Two Minute Fudge/Two Minute Fudge.jpg"],
-      'name': 'Two Minute Fudge',
-      'type': 'Candy & Desserts'
-    }
-  },
-  {},
-  {},
-  {},
-  {
-    'New folder': {
-      'image_urls': [],
-      'name': 'New folder',
-      'type': 'Drinks'
-    }
-  },
-  {},
-  {},
-  {},
-  {},
-  {},
-  {}
-]
+}
