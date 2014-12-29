@@ -2,6 +2,7 @@ import fnmatch
 import pprint
 import os
 import json
+import urllib
 
 def buildTree(dirRoot, urlRoot):
     tree = {}
@@ -22,7 +23,7 @@ def buildCategory(cwd, category, urlRoot):
 
 def buildFilePaths(pathToDir, urlRoot):
     for root, dirnames, filenames in os.walk(pathToDir):
-        return [os.path.join(urlRoot,filename) for filename in filenames]
+        return [urllib.quote( os.path.join(urlRoot,filename) ) for filename in filenames]
 
 def buildRecipe(name, type, arrFilePaths):
     print arrFilePaths
