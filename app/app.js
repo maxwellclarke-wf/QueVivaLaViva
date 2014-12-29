@@ -17,6 +17,19 @@ angular.module('QueViva',
           $scope.activeIndex = idx;
         };
 
+        $scope.filterRecipes = function($viewValue) {
+            var combinedRecipes = [];
+            var combined = Object.keys($scope.recipes).map(function(category) {
+                return Object.keys($scope.recipes[category]).map(function(recipe) {
+                    return $scope.recipes[category][recipe];
+                });
+            });
+            combinedRecipes.concat.apply($scope,
+               combined
+            );
+            return combinedRecipes;
+        };
+
 
 
 

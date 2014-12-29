@@ -48,7 +48,7 @@
                 <p class="lead">Viva Overfield was a pretty rockin' dudette.  This is a collection of her many recipes. </p>
                 <!--<div class="form-group has-feedback col-xs-4 center-block"> --><div class="form-group has-feedback center-block">
                     <i class="glyphicon glyphicon-search form-control-feedback" ></i>
-                    <input ng-model="asyncSelected" typeahead="recipe.name for recipe in getRecipes($viewValue)"  class="form-control input-lg col-lg-1" type="text" placeholder="Search by category or recipe">
+                    <input ng-model="asyncSelected" typeahead="recipe.name for recipe in filterRecipes($viewValue)"  class="form-control input-lg col-lg-1" type="text" placeholder="Search by category or recipe">
                         <!--replace input with typeahead: http://angular-ui.github.io/bootstrap/ -->
 
                 </div>
