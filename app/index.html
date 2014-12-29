@@ -55,11 +55,14 @@
                 <accordion ng-repeat="(groupName, recipeGroup) in recipes">
                     <accordion-group heading="{{groupName}}">
                         <accordion ng-repeat="recipe in recipeGroup">
-                            <accordion-group heading="{{recipe.name}} - {{recipe.type}}" >
-                                <div ng-repeat="url in recipe.image_urls">
-                                    {{url}}
+                            <accordion-group heading="{{recipe.name}} - {{recipe.type}}" ng-click="setActive($index)" >
+                                <span>{{activeIndex}}</span>
+                                <div ng-if="isActive($index)">
+                                    <div ng-repeat="url in recipe.image_urls">
+                                        {{url}}
+                                    </div>
+                                    <img ng-repeat="url in recipe.image_urls" src="{{ url }}" width="100%">
                                 </div>
-                                <img ng-repeat="url in recipe.image_urls" src="{{ url }}" width="100%">
                             </accordion-group>
                         </accordion>
                     </accordion-group>

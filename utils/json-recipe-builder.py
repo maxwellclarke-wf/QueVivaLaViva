@@ -17,7 +17,7 @@ def buildCategory(cwd, category, urlRoot):
     for root, dirnames, filenames in os.walk(cwd):
         for recipeName in dirnames:
             print recipeName
-            items[recipeName] = buildRecipe(recipeName, category, buildFilePaths( os.path.join( root,recipeName ), os.path.join( urlRoot,recipeName ) ) )
+            items[recipeName] = buildRecipe(recipeName, category, buildFilePaths( os.path.join( root,recipeName ), os.path.join( urlRoot,category,recipeName ) ) )
     return items
 
 def buildFilePaths(pathToDir, urlRoot):

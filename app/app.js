@@ -9,6 +9,14 @@ angular.module('QueViva',
         };
         $scope.getRecipes();
 
+        $scope.isActive = function isActive(idx) {
+            return $scope.activeIndex === idx;
+        };
+
+        $scope.setActive = function setActive(idx) {
+          $scope.activeIndex = idx;
+        }
+
 
 
 
