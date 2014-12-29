@@ -1,3 +1,17 @@
+/* Extending prototypes */
+if (!('contains' in String.prototype)) {
+    String.prototype.contains = function(str, startIndex) {
+        return ''.indexOf.call(this, str, startIndex) !== -1;
+    };
+}
+
+if (!('contains' in Array.prototype)) {
+    Array.prototype.contains = function(arr, startIndex) {
+        return ''.indexOf.call(this, arr, startIndex) !== -1;
+    };
+}
+/* end extension */
+
 angular.module('QueViva',
     ['ui.bootstrap','afkl.lazyImage']).controller('HomeController', function ($scope, $http) {
 
@@ -24,10 +38,12 @@ angular.module('QueViva',
                     return $scope.recipes[category][recipe];
                 });
             });
-            combinedRecipes.concat.apply($scope,
+            combinedRecipes = combinedRecipes.concat.apply(combinedRecipes,
                combined
             );
-            return combinedRecipes;
+            return combinedRecipes.filter(function (elem) {
+                return elem.name.toLowerCase().contains($viewValue.toLowerCase()) || elem.type.toLowerCase().contains($viewValue.toLowerCase());
+            });
         };
 
 

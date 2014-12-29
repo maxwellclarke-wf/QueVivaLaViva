@@ -22,6 +22,13 @@
 
     <script src="app.js"></script>
     <link rel="stylesheet" href="app.css">
+
+    <script type="text/ng-template" id="TypeAheadTemplate.html">
+        <a>
+            {{match.model.name}} : {{match.model.type}}
+            <!--<span bind-html-unsafe="match.label | typeaheadHighlight:query"></span>-->
+        </a>
+    </script>
 </head>
 <body ng-controller="HomeController">
 <div class="site-wrapper">
@@ -48,7 +55,7 @@
                 <p class="lead">Viva Overfield was a pretty rockin' dudette.  This is a collection of her many recipes. </p>
                 <!--<div class="form-group has-feedback col-xs-4 center-block"> --><div class="form-group has-feedback center-block">
                     <i class="glyphicon glyphicon-search form-control-feedback" ></i>
-                    <input ng-model="asyncSelected" typeahead="recipe.name for recipe in filterRecipes($viewValue)"  class="form-control input-lg col-lg-1" type="text" placeholder="Search by category or recipe">
+                    <input ng-model="asyncSelected" typeahead="recipe.name for recipe in filterRecipes($viewValue)"  class="form-control input-lg col-lg-1" type="text" placeholder="Search by category or recipe" typeahead-template-url="TypeAheadTemplate.html">
                         <!--replace input with typeahead: http://angular-ui.github.io/bootstrap/ -->
 
                 </div>
