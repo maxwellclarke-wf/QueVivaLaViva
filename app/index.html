@@ -53,22 +53,19 @@
             <div class="inner cover">
                 <h1 class="cover-heading">Que Viva Viva!</h1>
                 <p class="lead">Viva Overfield was a pretty rockin' dudette.  This is a collection of her many recipes. </p>
-                <!--<div class="form-group has-feedback col-xs-4 center-block"> --><div class="form-group has-feedback center-block">
+                <!--<div class="form-group has-feedback col-xs-4 center-block"> <div class="form-group has-feedback center-block">
                     <i class="glyphicon glyphicon-search form-control-feedback" ></i>
                     <input ng-model="asyncSelected" typeahead="recipe.name for recipe in filterRecipes($viewValue)"  class="form-control input-lg col-lg-1" type="text" placeholder="Search by category or recipe" typeahead-template-url="TypeAheadTemplate.html">
-                        <!--replace input with typeahead: http://angular-ui.github.io/bootstrap/ -->
-
-                </div>
+                </div> -->
             </div>
             <!--<div class="block-center">-->
-                <accordion ng-repeat="(groupName, recipeGroup) in recipes">
+                <accordion  ng-repeat="(groupName, recipeGroup) in recipes">
                     <accordion-group heading="{{groupName}}">
                         <accordion ng-repeat="recipe in recipeGroup">
-                            <accordion-group heading="{{recipe.name}} - {{recipe.type}}" >
-
-                                <div class="width-full" ng-repeat="url in recipe.image_urls" afkl-lazy-image="{{url}}">
-                                </div>
-                                <!--<img ng-repeat="url in recipe.image_urls" src="{{ url }}" width="100%">-->
+                            <!--<accordion-group heading="{{recipe.name}} - {{recipe.type}}" ng-click="attachImages(recipe.image_urls, $event)" >-->
+                            <accordion-group heading="{{recipe.name}} - {{recipe.type}}" ng-click="prepareImages(recipe)" >
+                                <!--<div class="width-full" ng-repeat="url in recipe.image_urls" afkl-lazy-image="{{url}}"></div>-->
+                                <img ng-repeat="url in recipe.render_urls" src="{{ url }}" width="100%">
                             </accordion-group>
                         </accordion>
                     </accordion-group>

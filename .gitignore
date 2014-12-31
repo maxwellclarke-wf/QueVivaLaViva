@@ -46,4 +46,7 @@ crashlytics.properties
 crashlytics-build.properties
 
 
-.DS_STORE/
+.DS_Store
+*.swp
+app/res/img/
+bower_components/

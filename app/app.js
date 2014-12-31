@@ -45,8 +45,22 @@ angular.module('QueViva',
                 return elem.name.toLowerCase().contains($viewValue.toLowerCase()) || elem.type.toLowerCase().contains($viewValue.toLowerCase());
             });
         };
+        $scope.attachImages = function fuckAngular(imgUrls, $event) {
+            var parentElement = $event.target.parentElement.parentElement.parentElement.nextElementSibling.childNodes[1].firstChild
+            imgUrls.forEach(function(url) {
+                parentElement.innerHTML += '<img src="' + url + '">';
+            });
+        };
 
+        $scope.removeImages = function alsoFuckAngular(parentElement) {
+            parentElement.innerHTML = "Loading...";
+        };
 
-
-
+        $scope.prepareImages = function(recipe) {
+            if (!recipe.hasOwnProperty("render_urls") || recipe.render_urls == undefined) {
+                recipe.render_urls = recipe.image_urls;
+            } else {
+                recipe.image_urls = undefined;
+            }
+        }
     });
