@@ -23,7 +23,7 @@ def buildCategory(cwd, category, urlRoot):
 
 def buildFilePaths(pathToDir, urlRoot):
     for root, dirnames, filenames in os.walk(pathToDir):
-        return [urllib.quote( os.path.join(urlRoot,filename) ) for filename in filenames]
+        return [urllib.quote( os.path.join(urlRoot,filename) ) for filename in filenames if filename.endswith('.jpg')]
 
 def buildRecipe(name, type, arrFilePaths):
     print arrFilePaths

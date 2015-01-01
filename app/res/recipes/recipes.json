@@ -2,7 +2,6 @@
     "Breakfast": {
         "6 Week Bran Muffins": {
             "image_urls": [
-                "res/img/Breakfast/6%20Week%20Bran%20Muffins/.DS_Store",
                 "res/img/Breakfast/6%20Week%20Bran%20Muffins/6%20Week%20Bran%20Muffins1.jpg",
                 "res/img/Breakfast/6%20Week%20Bran%20Muffins/6%20Week%20Bran%20Muffins2.jpg"
             ],
@@ -41,7 +40,6 @@
         },
         "Microwave Muffins": {
             "image_urls": [
-                "res/img/Breakfast/Microwave%20Muffins/.DS_Store",
                 "res/img/Breakfast/Microwave%20Muffins/Microwave%20Muffins.jpg"
             ],
             "name": "Microwave Muffins",
