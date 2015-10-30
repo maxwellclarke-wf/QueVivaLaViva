@@ -23,6 +23,15 @@ angular.module('QueViva',
         };
         $scope.getRecipes();
 
+        $scope.toggleSearch = function toggleSearch() {
+            console.log('click fired');
+            $('.search-container').animate({
+                opacity: 'toggle',
+                height: 'toggle',
+                length: 'toggle'
+            });
+        };
+
         $scope.isActive = function isActive(idx) {
             return $scope.activeIndex === idx;
         };
@@ -46,7 +55,7 @@ angular.module('QueViva',
             });
         };
         $scope.attachImages = function fuckAngular(imgUrls, $event) {
-            var parentElement = $event.target.parentElement.parentElement.parentElement.nextElementSibling.childNodes[1].firstChild
+            var parentElement = $event.target.parentElement.parentElement.parentElement.nextElementSibling.childNodes[1].firstChild;
             imgUrls.forEach(function(url) {
                 parentElement.innerHTML += '<img src="' + url + '">';
             });
